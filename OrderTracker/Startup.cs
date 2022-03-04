@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace ToDoList
+namespace OrderTracker
 {
   public class Startup
   {
@@ -29,12 +29,12 @@ namespace ToDoList
       
       app.UseRouting();
 
-      app.UseStaticFiles();
-
       app.UseEndpoints(routes =>
       {
         routes.MapControllerRoute("default", "{controller=Home}/{action=Index}/{id?}");
       });
+
+      app.UseStaticFiles();
 
       app.Run(async (context) =>
       {
