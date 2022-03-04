@@ -6,14 +6,14 @@ namespace OrderTracker.Models
   {
     public string Title { get; set; }
     public string Description { get; set; }
-    public int Date { get; set; }
+    public string Date { get; set; }
     public int Price { get; set; }
     public int Id { get; }
     private static List<Order> _instances = new List<Order> { };
 
-    public Order(string title, string description, int date, int price)
+    public Order(string title, string description, string date, int price)
     {
-      Title = Title;
+      Title = title;
       Description = description;
       Date = date;
       Price = price;
