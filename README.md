@@ -19,7 +19,7 @@ This is an MVC web application built with C# to help a business keep tack of the
 ### Step 1
 Clone the repository:
 ``` 
-$ git clone https://github.com/RileyShimp/pierresbakery.git 
+$ git clone https://github.com/RileyShimp/ordertracker.git 
 ```
 ### Step 2
 First we'll install .NET, which provides access to the C# language. Follow along with instructions for your operating system provided in the following link: 
