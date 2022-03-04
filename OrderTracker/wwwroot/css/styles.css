@@ -1,3 +1,23 @@
+Body {
+  background-color: rgb(59, 59, 58);
+  padding-top: 100px;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(255, 200, 47);
+}
+
+a {
+  color: rgb(255, 200, 47);
+  font-size: 50px;
+  padding-bottom: 50px;
+}
+
+h1 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 80px;
+  padding-bottom: 70px;
+}
+
 div#footer {
   position:fixed;
   bottom:0px;
@@ -5,5 +25,5 @@ div#footer {
   width:100%;
   color:#CCC;
   background:#333;
-  padding:8px;
+  padding:10px;
 }
