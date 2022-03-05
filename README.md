@@ -7,6 +7,7 @@
 * C#
 * .NET
 * CSS
+* Bootstrap
 * Razor View Engine
 * VSCode
 

@@ -2,8 +2,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace OrderTracker.Controllers
 {
-    public class HomeController : Controller
-    {
+  public class HomeController : Controller
+  {
 
     [HttpGet("/")]
     public ActionResult Index()
@@ -11,5 +11,5 @@ namespace OrderTracker.Controllers
       return View();
     }
 
-    }
+  }
 }
